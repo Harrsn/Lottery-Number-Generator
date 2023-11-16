@@ -60,7 +60,7 @@ def on_generate_button():
             # Clear existing content
             result_text.delete("1.0", tk.END)
             # Display generated Powerball numbers
-            result_text.insert(tk.END, "Powerball Numbers:\n")
+            result_text.insert(tk.END, f"Powerball Numbers:\n")
             for i, (main_numbers, powerball_number) in enumerate(powerball_results, 1):
                 result_text.insert(tk.END, f"Set {i}: Main Numbers: {main_numbers}, Powerball: {powerball_number}\n")
 
@@ -74,6 +74,12 @@ def on_generate_button():
 
     except ValueError:
         messagebox.showerror("Error", "Please enter a valid number for 'Number of Sets'.")
+
+# Event handler for the "Clear" button
+def on_clear_button():
+    result_text.config(state=tk.NORMAL)
+    result_text.delete("1.0", tk.END)
+    result_text.config(state=tk.DISABLED)
 
 # Create the main window
 window = tk.Tk()
@@ -97,6 +103,9 @@ num_sets_entry.pack(pady=10)
 
 generate_button = tk.Button(window, text="Generate Numbers", command=on_generate_button, font=("Helvetica", 12), bg="red", fg="white")
 generate_button.pack(pady=15)
+
+clear_button = tk.Button(window, text="Clear Results", command=on_clear_button, font=("Helvetica", 12), bg="white", fg="black")
+clear_button.pack(pady=15)
 
 result_text = tk.Text(window, height=10, width=40, font=("Helvetica", 10), state=tk.DISABLED, bg="#F5F5F5")
 result_text.pack(pady=10)
