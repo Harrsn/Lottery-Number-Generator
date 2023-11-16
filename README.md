@@ -9,20 +9,20 @@ Python programs for Powerball and Mega Millions lottery number generation with a
 4. GUI Interface: The Tkinter-based GUI provides a user-friendly experience, allowing users to interact with the program effortlessly.
 5. Customization: Users can customize the number of sets they want to generate.
 
-## Usage:
+### Usage:
 
 Run the program.
 Input the number of sets you want.
 Click the "Generate Numbers" button.
 View the generated numbers on the GUI and save them to a file.
 
-## Powerball Version:
+#### Powerball Version:
 The Powerball version fetches the latest Powerball winning numbers from the Lotto Strategies website.
 
-## Mega Millions Version:
+##### Mega Millions Version:
 The Mega Millions version fetches the latest Mega Millions winning numbers from the Lotto Strategies website.
 
-## Requirements:
+###### Requirements:
 
 Python 3.x
 Tkinter library
