@@ -11,6 +11,7 @@ Python programs for Powerball and Mega Millions lottery number generation with a
 
 ### Usage:
 
+Install requirements ```pip install -r requirements.txt```
 Run the program.
 Input the number of sets you want.
 Click the "Generate Numbers" button.
