@@ -86,7 +86,7 @@ window.geometry("400x400")
 window.configure(bg="#F5F5F5")
 
 # Add a logo
-logo_image = tk.PhotoImage(file="C:/Users/harrsn/Desktop/Lottery Python/powerball.png")
+logo_image = tk.PhotoImage(file="images/powerball.png")
 logo_label = tk.Label(window, image=logo_image, bg="#F5F5F5")
 logo_label.pack(anchor="center", padx=10, pady=10)
 
