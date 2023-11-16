@@ -16,13 +16,13 @@ Input the number of sets you want.
 Click the "Generate Numbers" button.
 View the generated numbers on the GUI and save them to a file.
 
-#### Powerball Version:
+### Powerball Version:
 The Powerball version fetches the latest Powerball winning numbers from the Lotto Strategies website.
 
-##### Mega Millions Version:
+### Mega Millions Version:
 The Mega Millions version fetches the latest Mega Millions winning numbers from the Lotto Strategies website.
 
-###### Requirements:
+### Requirements:
 
 Python 3.x
 Tkinter library
