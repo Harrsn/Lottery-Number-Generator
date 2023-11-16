@@ -3,19 +3,19 @@ Python programs for Powerball and Mega Millions lottery number generation with a
 
 ### Features:
 
-1. Web Scraping: The programs utilize web scraping techniques to fetch the latest winning numbers from lottery result websites.
-2. Random Number Generation: Users can generate random sets of numbers for both the main numbers and the additional numbers (Powerball or Mega Ball).
-3. File Saving: The generated numbers can be saved to a local file for future reference.
-4. GUI Interface: The Tkinter-based GUI provides a user-friendly experience, allowing users to interact with the program effortlessly.
-5. Customization: Users can customize the number of sets they want to generate.
+- Web Scraping: The programs utilize web scraping techniques to fetch the latest winning numbers from lottery result websites.
+- Random Number Generation: Users can generate random sets of numbers for both the main numbers and the additional numbers (Powerball or Mega Ball).
+- File Saving: The generated numbers can be saved to a local file for future reference.
+- GUI Interface: The Tkinter-based GUI provides a user-friendly experience, allowing users to interact with the program effortlessly.
+- Customization: Users can customize the number of sets they want to generate.
 
 ### Usage:
 
-Install requirements ```pip install -r requirements.txt```
-Run the program.
-Input the number of sets you want.
-Click the "Generate Numbers" button.
-View the generated numbers on the GUI and save them to a file.
+1. Install requirements ```pip install -r requirements.txt```
+2. Run the program.
+3. Input the number of sets you want.
+4. Click the "Generate Numbers" button.
+5. View the generated numbers on the GUI and view them in their results.txt file.
 
 ### Powerball Version:
 The Powerball version fetches the latest Powerball winning numbers from the Lotto Strategies website.
@@ -28,4 +28,4 @@ The Mega Millions version fetches the latest Mega Millions winning numbers from 
 Python 3.x
 Tkinter library
 BeautifulSoup and Requests libraries for web scraping
-Feel free to use, modify, and share these programs. Good luck, and may the odds be ever in your favor!
+Feel free to use and share these programs. Good luck, and may the odds be ever in your favor!
