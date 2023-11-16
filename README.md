@@ -1,7 +1,7 @@
 # Lottery Number Generator
 Python programs for Powerball and Mega Millions lottery number generation with a Tkinter GUI. Easily specify sets, generate random numbers, and save for reference. Simple and user-friendly.
 
-## Features:
+### Features:
 
 1. Web Scraping: The programs utilize web scraping techniques to fetch the latest winning numbers from lottery result websites.
 2. Random Number Generation: Users can generate random sets of numbers for both the main numbers and the additional numbers (Powerball or Mega Ball).
